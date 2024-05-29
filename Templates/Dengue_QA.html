@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dengue_Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container h-100 m-5">
+    <div class="row h-100 justify-content-center align-items-center">
+        <form action = "/askDengueRes" method = "post">
+        
+    <div>
+        <label>Are you experiencing severe headache?</label>
+        <div>
+        <input type = "radio" name = "headache" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "headache" value="no">
+        <label>No</label>
+    </div>
+    </div>
+    <div>
+        <label>Are you having pain behind eyes?</label>
+        <div>
+        <input type = "radio" name = "eyes_pain" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "eyes_pain" value="no">
+        <label>No</label>
+    </div>
+    </div>
+    <div>
+        <label>Are you having severe muscle pain?</label>
+        <div>
+        <input type = "radio" name = "muscle_pain" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "muscle_pain" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>Are you having severe joint pain?</label>
+        <div>
+        <input type = "radio" name = "joint_pain" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "joint_pain" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>Have you vomited or felt like vomiting(Nausea)?</label>
+        <div>
+        <input type = "radio" name = "nausea" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "nausea" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>Have you experienced rashes on skin which appears two to five days after the onset of fever?</label>
+        <div>
+        <input type = "radio" name = "rashes" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "rashes" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>Are you having mild bleeding such a nose bleed, bleeding gums, or easy bruising?</label>
+        <div>
+        <input type = "radio" name = "bleeding" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "bleeding" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>Are you experiencing Diarrhea?</label>
+        <div>
+        <input type = "radio" name = "diarrhea" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "diarrhea" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    </div>
+    </div>
+
+</body> 
+</html>

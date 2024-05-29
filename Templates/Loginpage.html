@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssistanceMadeEasy - Medical Expert System</title>
+    <link rel="stylesheet" href="static/Loginpage.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-half">
+            <div class="left-content">
+                <h1>Welcome back!</h1>
+                <p>Please login to access your account.</p>
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="right-content">
+                <h2 class="login-heading">Login</h2>
+                <form class="login-form" action = "/validateUser" method = "post">
+                    <div class="input-heading">Enter your email</div>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <div class="input-heading">Enter your password</div>
+                    <input type="password" placeholder="Password" name="password"required>
+                    <button class="login-button" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

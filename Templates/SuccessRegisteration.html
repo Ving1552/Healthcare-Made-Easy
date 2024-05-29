@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: green;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Successful</h1>
+    <p>Your account has been successfully registered.</p>
+    <p>Click <a href="{{ url_for('redirect_to_login') }}"> here</a> to login.</p>
+</body>
+</html>

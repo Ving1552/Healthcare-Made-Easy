@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia_Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container h-100 m-5">
+    <div class="row h-100 justify-content-center align-items-center">
+        <form action = "/askPneumonia" method = "post">
+        
+    <div>
+        <label>Are you experiencing shortness of breath while doing normal activities or even while resting?</label>
+        <div>
+        <input type = "radio" name = "short_breath" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "short_breath" value="no">
+        <label>No</label>
+    </div>
+    </div>
+    <div>
+        <label>Are you experiencing sweating along with chills?</label>
+        <div>
+        <input type = "radio" name = "sweat" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "sweat" value="no">
+        <label>No</label>
+    </div>
+    </div>
+    <div>
+        <label>Are you breathing rapidly?</label>
+        <div>
+        <input type = "radio" name = "rapid_breath" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "rapid_breath" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>AAre you having a worsening cough that may produce yellow/green or bloody mucus (phlegm)</label>
+        <div>
+        <input type = "radio" name = "cough" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "cough" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <label>Are you experiencing Diarrhea?</label>
+        <div>
+        <input type = "radio" name = "diarrhea" value="yes">
+        <label>Yes</label>
+        <input type = "radio" name = "diarrhea" value="no">
+        <label>No</label>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    </div>
+    </div>
+
+</body> 
+</html>

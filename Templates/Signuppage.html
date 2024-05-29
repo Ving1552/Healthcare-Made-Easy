@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssistanceMadeEasy - Medical Expert System</title>
+    <link rel="stylesheet" href="static/Signuppage.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-half">
+            <div class="left-content">
+                <h1>Join Us Today!</h1>
+                <p>Sign up now to get started on your journey with us.</p>
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="right-content">
+                <h2 class="login-heading">Signup</h2>
+                <form class="login-form" action = "/registerUser" method = "post">
+                    <div class="input-heading">Enter your name</div>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <div class="input-heading">Enter your Gender</div>
+                    <input type="text" name="gender" placeholder="Gender" required>
+                    <div class="input-heading">Enter your Age</div>
+                    <input type="number" name="age" placeholder="Age" required>
+                    <div class="input-heading">Enter your email</div>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <div class="input-heading">Set password</div>
+                    <input type="password" placeholder="Password" name="pass" required>
+                    <button class="login-button" type="submit">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

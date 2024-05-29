@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssistanceMadeEasy - Medical Expert System</title>
+    <link rel="stylesheet" href="static/Homepage.css">
+</head>
+<body>
+    <div>
+    <div class="Second">
+        <div class="C1">
+            <img  class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqUASIJ6_pu40cnxqLVWe2AcweK1BWCxOTg&usqp=CAU" 
+            alt="This image is removed" width="120px" height="120px">
+        </div>
+        <div class="C2">
+            <h1>Welcome to AssistanceMadeEasy</h1>
+       <p>Your trusted companion for informed healthcare choices</p> 
+       <p>Access quality diagnosis and recommendations for a healthier, well-informed life</p>
+        </div>
+    </div>
+    <div class="Third">
+        <div class="container">
+            <div class="options">
+              <div class="option">
+                <h2>Are you a new user?</h2>
+                <p class="description">Join us now!</p>
+                <a href="{{ url_for('redirect_to_signup') }}"> <button class="signup-button" >Sign Up</button></a>
+              </div>
+              <div class="separator"></div>
+              <div class="option">
+                <h2>Are you a registered user?</h2>
+                <p class="description">Welcome back!</p>
+                <a href="{{ url_for('redirect_to_login') }}"> <button class="login-button" type="submit">Login</button></a>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+</div>
+</body>
+</html>
